@@ -1,3 +1,14 @@
-#story {
+#results {
+  display: none;
+}
+
+.goodLuckResults {
+  display: none;
+}
+
+.badLuckResults {
+  display: none;
+}
+.nutralResults {
   display: none;
 }

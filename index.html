@@ -4,33 +4,38 @@
   <title>Fortune Teller</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="container">
     <form id="formOne">
       <p>Lucky Events:</p>
-      <input type="checkbox" name="luck" value="See a rainbow">
-      <input type="checkbox" name="luck" value="See a four-leaf clover">
-      <input type="checkbox" name="luck" value="See a ladybug">
-      <input type="checkbox" name="luck" value="Find a horseshoe">
+      <input type="checkbox" name="luck" value="See a rainbow">See a rainbow<br>
+      <input type="checkbox" name="luck" value="See a four-leaf clover">See a four-leaf clover<br>
+      <input type="checkbox" name="luck" value="See a ladybug">See a ladybug<br>
+      <input type="checkbox" name="luck" value="Find a horseshoe">Find a horseshoe<br>
       <p>Unlucky Events:</p>
-      <input type="checkbox" name="unLuck" value="A black cat crossing your path">
-      <input type="checkbox" name="unLuck" value="Walking under a ladder">
-      <input type="checkbox" name="unLuck" value="Tipping a salt shaker over">
-      <input type="checkbox" name="unLuck" value="Dropping your phone">
+      <input type="checkbox" name="unLuck" value="A black cat crossing your path">A black cat crossing your path<br>
+      <input type="checkbox" name="unLuck" value="Walking under a ladder">Walking under a ladder<br>
+      <input type="checkbox" name="unLuck" value="Tipping a salt shaker over">Tipping a salt shaker over<br>
+      <input type="checkbox" name="unLuck" value="Dropping your phone">Dropping your phone<br>
       <button type="submit" name="button">Submit</button>
     </form>
-    <div class="result">
-      <span class="goodLuckResult">
+
+    <div id="results">
+      <span class="nutralResults">
+        <p>You have equal good and bad luck. Just make right decisions!</p>
+      </span>
+      <span class="goodLuckResults">
         <p>Good Fortune:</p>
       </span>
-      <span class="badLuckResult">
+      <span class="badLuckResults">
         <p>Bad Fortune</p>
       </span>
+      <button id="goBack" type="button" name="button">Go back</button>
     </div>
 
   </div>
