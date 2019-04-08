@@ -1,16 +1,16 @@
-# _Count Up By_
+# _Fortune Teller_
 
-#### _Count Up By 01/16/2019_
+#### _fortune-teller 01/16/2019_
 
 #### By _**Theary Im and Yulia Shidlovskaya**_
 
 ## Description
 
-_This is a website for counting up numbers._
+_This is a website that gathers user's response and returns the user's fortune._
 
 ## Support and contact details
 
-_Feel free to use this code, contact epicodus_
+_Theary Im: thearyim@gmail.com_
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ _Feel free to use this code, contact epicodus_
 * _Atom_
 * _Command prompt_
 * _Javascript_
-* _JQUERY_
+* _JQuery_
 
 ### License
 MIT
